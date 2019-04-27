@@ -1,0 +1,69 @@
+Wed Nov 28 14:14:08 2018
+ [main()]: Successfully started logging_thread...
+
+Wed Nov 28 14:14:08 2018
+ [thread()]: thread 140350517360384 launched
+
+Wed Nov 28 14:14:08 2018
+ [main()]: Accepted connection from (localhost, 45878)
+
+Wed Nov 28 14:14:08 2018
+ [doit()]: cache miss --> http://localhost:5881/tiny.c
+
+Wed Nov 28 14:14:08 2018
+ [doit()]: Bytes received: 7987 
+
+Wed Nov 28 14:14:08 2018
+ [cache_add1()]: Adding --> http://localhost:5881/tiny.c, to cache, 7987 bytes.
+
+Wed Nov 28 14:14:08 2018
+ [cache_add2()]: Cache size after adding --> 7987.
+
+Wed Nov 28 14:14:08 2018
+ [doit()]: Cache size after add: 7987 
+
+Wed Nov 28 14:14:08 2018
+ [main()]: Accepted connection from (localhost, 45882)
+
+Wed Nov 28 14:14:08 2018
+ [doit()]: cache miss --> http://localhost:5881/home.html
+
+Wed Nov 28 14:14:08 2018
+ [doit()]: Bytes received: 229 
+
+Wed Nov 28 14:14:08 2018
+ [cache_add1()]: Adding --> http://localhost:5881/home.html, to cache, 229 bytes.
+
+Wed Nov 28 14:14:08 2018
+ [cache_add2()]: Cache size after adding --> 8216.
+
+Wed Nov 28 14:14:08 2018
+ [doit()]: Cache size after add: 8216 
+
+Wed Nov 28 14:14:08 2018
+ [main()]: Accepted connection from (localhost, 45886)
+
+Wed Nov 28 14:14:08 2018
+ [doit()]: cache miss --> http://localhost:5881/csapp.c
+
+Wed Nov 28 14:14:08 2018
+ [doit()]: Bytes received: 23459 
+
+Wed Nov 28 14:14:08 2018
+ [cache_add1()]: Adding --> http://localhost:5881/csapp.c, to cache, 23459 bytes.
+
+Wed Nov 28 14:14:08 2018
+ [cache_add2()]: Cache size after adding --> 31675.
+
+Wed Nov 28 14:14:08 2018
+ [doit()]: Cache size after add: 31675 
+
+Wed Nov 28 14:14:08 2018
+ [main()]: Accepted connection from (localhost, 45890)
+
+Wed Nov 28 14:14:08 2018
+ [cache_get()]: Retrieving uri: http://localhost:5881/home.html
+
+Wed Nov 28 14:14:08 2018
+ [doit()]: Cache hit! --> http://localhost:5881/home.html, 229 bytes.
+
